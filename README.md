@@ -253,7 +253,6 @@ Bu loyihaga hissa qo'shish uchun:
 ## 📞 Aloqa
 
 Savollar yoki takliflar uchun:
-- 📧 Email: your.email@example.com
 - 💬 Telegram: [@NodirUstozBot](https://t.me/NodirUstozBot)
 - 🐛 Issues: [GitHub Issues](https://github.com/NodirUstoz/ShutupBot/issues)
 
