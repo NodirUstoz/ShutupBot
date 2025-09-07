@@ -16,7 +16,7 @@
 
 ## 📋 Loyiha haqida
 
-**ShutupBot** - bu Telegram guruhlarida taqiqlangan so'zlarni avtomatik ravishda aniqlab, foydalanuvchilarni progressiv jazo tizimi orqali nazorat qiluvchi aqlli moderatsiya boti. Bot foydalanuvchilarning xatti-harakatlarini 24 soat davomida kuzatib, har bir buzish uchun mos darajada jazo beradi.
+**ShutupBot** - bu Telegram guruhlarida taqiqlangan so'zlarni avtomatik ravishda aniqlab, foydalanuvchilarni progressiv jazo tizimi orqali nazorat qiluvchi aqlli moderatsiya boti. Bot foydalanuvchilarning xatti-harakatlarini 24 soat davomida kuzatib, har bir qoida buzish uchun mos darajada jazo beradi.
 
 ### 🎯 Asosiy maqsad
 - Guruhlarda toza va madaniy muhit yaratish
@@ -31,10 +31,10 @@
 ### 🛡️ Aqlli Moderatsiya
 - **Avtomatik aniqlash**: Taqiqlangan so'zlarni real vaqtda aniqlaydi
 - **Xabar o'chirish**: Buzilgan xabarlarni avtomatik o'chiradi
-- **Progressiv jazo**: Har bir buzish uchun ortib boruvchi jazo muddati
+- **Progressiv jazo**: Har bir qoida buzish uchun ortib boruvchi jazo muddati
 
 ### 📊 Progressiv Jazo Tizimi
-| Buzish soni | Jazo muddati | Tavsif |
+| Qoida buzish soni | Jazo muddati | Tavsif |
 |-------------|--------------|---------|
 | 1-chi | 5 daqiqa | Birinchi ogohlantirish |
 | 2-chi | 15 daqiqa | Ikkinchi ogohlantirish |
@@ -42,13 +42,13 @@
 | 4-chi va undan keyin | 1 kun | Jiddiy jazo |
 
 ### 🔄 Avtomatik Tizim
-- **24 soatlik kuzatuv**: Har bir foydalanuvchining buzishlarini 24 soat davomida hisoblaydi
-- **Avtomatik tozalash**: 24 soatdan keyin buzishlar hisobini tozalaydi
+- **24 soatlik kuzatuv**: Har bir foydalanuvchining qoida buzishlarini 24 soat davomida hisoblaydi
+- **Avtomatik tozalash**: 24 soatdan keyin qoida buzishlar hisobini tozalaydi
 - **Xabar o'chirish**: Blok tugagach, guruhdagi ogohlantirish xabarlarini avtomatik o'chiradi
 
 ### 💬 Xabar Tizimi
 - **Shaxsiy ogohlantirish**: Har bir foydalanuvchiga shaxsiy xabar yuboradi
-- **Guruh bildirishnomasi**: Guruhga buzish haqida ma'lumot beradi
+- **Guruh bildirishnomasi**: Guruhga qoida buzish haqida ma'lumot beradi
 - **O'zbek tilida**: Barcha xabarlar o'zbek tilida
 
 ---
@@ -131,7 +131,7 @@ BLOCKED_MESSAGE_TEMPLATE = """❌ Siz taqiqlangan so'z ishlatdingiz!
 
 🚫 Sabab: "{word}" so'zi taqiqlangan
 ⏱ Blok muddati: {duration}
-📊 Bugungi kunlik buzishlar soni: {count}/4
+📊 Bugungi kunlik qoida buzishlar soni: {count}/4
 
 Iltimos, guruh qoidalariga rioya qiling."""
 
@@ -141,7 +141,7 @@ GROUP_NOTIFICATION_TEMPLATE = """🚫 **Foydalanuvchi bloklandi**
 👤 Foydalanuvchi: [{user_name}](tg://user?id={user_id}) `#{user_id}`
 🚫 Sabab: "{word}" so'zi ishlatildi
 ⏱ Blok muddati: {duration}
-📊 Bu foydalanuvchining {count}-chi buzishi
+📊 Bu foydalanuvchining {count}-chi qoida buzishi
 
 _Bu xabar foydalanuvchi blokdan chiqgach o'chadi._"""
 ```
@@ -166,7 +166,7 @@ Bot to'g'ri ishlashi uchun quyidagi huquqlarga ega bo'lishi kerak:
 ### 🔍 Qanday ishlaydi
 
 1. **Xabar tekshirish**: Bot har bir xabarni taqiqlangan so'zlar bilan solishtiradi
-2. **Buzish aniqlash**: Agar taqiqlangan so'z topilsa, foydalanuvchi buzish qilgan deb hisoblanadi
+2. **Qoida buzish aniqlash**: Agar taqiqlangan so'z topilsa, foydalanuvchi qoida buzish qilgan deb hisoblanadi
 3. **Jazo berish**: Progressiv jazo tizimi bo'yicha foydalanuvchi cheklanadi
 4. **Xabar yuborish**: Foydalanuvchiga shaxsiy ogohlantirish va guruhga bildirishnoma yuboriladi
 
@@ -207,7 +207,7 @@ ShutupBot/
 
 ### 🎯 Aqlli Algoritm
 - **Case-insensitive**: Katta-kichik harflarga e'tibor bermaydi
-- **Substring matching**: So'zning bir qismi ham topilsa, buzish deb hisoblanadi
+- **Substring matching**: So'zning bir qismi ham topilsa, qoida buzish deb hisoblanadi
 - **Real-time processing**: Xabarlar real vaqtda tekshiriladi
 
 ### 🔒 Xavfsizlik
@@ -216,7 +216,7 @@ ShutupBot/
 - **Logging**: Barcha harakatlar log qilinadi
 
 ### 📊 Monitoring
-- **Violation tracking**: Har bir foydalanuvchining buzishlarini kuzatish
+- **Violation tracking**: Har bir foydalanuvchining qoida buzishlarini kuzatish
 - **Automatic cleanup**: Eski ma'lumotlarni avtomatik tozalash
 - **Message management**: Xabarlarni avtomatik o'chirish
 
