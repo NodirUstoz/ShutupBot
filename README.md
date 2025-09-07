@@ -260,6 +260,6 @@ Savollar yoki takliflar uchun:
 
 <div align="center">
 
-**⭐ Agar loyiha sizga yoqsa, yulduzcha qoldiring! ⭐**
+**⭐ Agar loyiha sizga foydali bo'lgan bo'lsa yulduzcha qoldiring! ⭐**
 
 </div>
