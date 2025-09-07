@@ -1,0 +1,11 @@
+# ShutupBot - Telegram Moderatsiya Boti
+# Kerakli kutubxonalar
+aiogram>=3.22.0
+python-dotenv>=1.1.1
+
+# Qo'shimcha foydali kutubxonalar (ixtiyoriy)
+# asyncio - Python 3.11+ da built-in
+# logging - Python da built-in
+# datetime - Python da built-in
+# collections - Python da built-in
+# typing - Python da built-in
