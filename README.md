@@ -236,7 +236,6 @@ Bu loyihaga hissa qo'shish uchun:
 
 ## 👨‍💻 Muallif
 
-**Sizning Ismingiz**
 - GitHub: [@NodirUstoz](https://github.com/NodirUstoz)
 - Telegram: [@NodirUstozBot](https://t.me/NodirUstozBot)
 
